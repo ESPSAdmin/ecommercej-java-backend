@@ -1,0 +1,13 @@
+package com.digiuncle.digiuncle;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DigiuncleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DigiuncleApplication.class, args);
+	}
+
+}

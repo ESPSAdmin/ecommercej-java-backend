@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Id;
 
 @Entity
-@Table(name="users")
+@Table(name="userdata")
 public class Users {
 	 @Id
 	 @Column(name = "Id", nullable = false, unique = true)
